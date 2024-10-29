@@ -1,0 +1,94 @@
+/* Fundamentals */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+/* Fonts Ended */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #eef1ef;
+}
+
+/* NavBar */
+nav {
+  background-color: #1d7948;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0;
+  font-size: 25px;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo a {
+  color: #ddea90;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo a:hover {
+  color: white;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navList li {
+  margin: 0 20px;
+}
+
+.navList li a {
+  color: #ddea90;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navList li a:hover {
+  color: white;
+}
+/* NavBar Ended */
+
+body {
+  padding-top: 50px;
+}
+/* Fundamentals Ended */
+
+/* Body */
+.aboutBody h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.aboutBody h1 {
+  color: #005900;
+  font-family: "Playfair Display", serif;
+}
+.aboutBody p {
+  color: #37393a;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* Body Ended*/

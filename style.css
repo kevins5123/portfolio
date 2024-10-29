@@ -1,0 +1,158 @@
+/* 
+Resources: 
+- Colors
+  Dark Spring Green Color: #1D7948
+  Mindaro Color: #DDEA90
+  Background Color: #EEF1EF
+  Onxy Color: #37393A
+*/
+
+/* Fundamentals */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro&display=swap");
+/* Fonts Ended */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #eef1ef;
+}
+
+/* NavBar */
+nav {
+  background-color: #1d7948;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0;
+  font-size: 25px;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo a {
+  color: #ddea90;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.logo a:hover {
+  color: white;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navList li {
+  margin: 0 20px;
+}
+
+.navList li a {
+  color: #ddea90;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.2s ease-in-out;
+}
+
+.navList li a:hover {
+  color: white;
+}
+/* NavBar Ended */
+
+body {
+  padding-top: 30px;
+}
+/* Fundamentals Ended */
+
+/* Body */
+.indexBody h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.indexBody h1,
+h3 {
+  color: #005900;
+  font-family: "Playfair Display", serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  height: 400px;
+  background: white;
+  padding: 0.4em;
+  border: 3px solid #50723c;
+  border-radius: 6px;
+}
+
+.card a {
+  color: #50723c;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #50723c;
+  padding: 10px 7px 0;
+}
+
+.description,
+.link {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #37393a;
+  padding: 5px;
+  overflow-y: auto;
+  max-height: 100px;
+}
+
+/* Body Ended */
+
+/* 
+Source for "cards":
+https://uiverse.io/alexmaracinaru/purple-zebra-61
+*/
